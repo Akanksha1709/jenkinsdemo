@@ -77,4 +77,14 @@
         </plugins>
 
     </build>
+         
+         <distributionManagement>
+	<repository>
+		<id>iddemo</id>
+		<name>Maven</name>
+		<url>http://10.100.90.220:8081/repository/Maven/</url>
+	</repository>
+ 
+
+</distributionManagement> 
 </project>
