@@ -5,7 +5,7 @@ node {
 	}
 	
  stage('Git checkout'){
-	git 'https://github.com/joshiPriya/helloworld-java-maven.git'
+	git 'https://github.com/Akanksha1709/jenkinsdemo.git'
 }
 
 stage('compile-package')
